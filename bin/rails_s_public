@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FULL_PATH=$(realpath $0)
+DIR_PATH=$(dirname ${FULL_PATH})
+
+${DIR_PATH}/rails s -b 0.0.0.0

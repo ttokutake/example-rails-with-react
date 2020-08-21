@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FULL_PATH=$(realpath $0)
+DIR_PATH=$(dirname ${FULL_PATH})
+
+WEBPACKER_DEV_SERVER_HOST=0.0.0.0 ${DIR_PATH}/webpack-dev-server
